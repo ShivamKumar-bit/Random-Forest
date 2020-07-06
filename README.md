@@ -4,7 +4,7 @@ It basically means combining different models, train them from your data set and
 #### Bagging
 One of the ensemble techniques is **Bagging** a.k.a Bootstrap aggregation. Let's say if you have a data set (D) and you have some base learners/ models.
 Now  we will divide our data set into say (D1,D2...) using row sampling with replacement technique. And feed these datasets to the models.
-###### Note-
+#### Note-
 Your datasets may have some same data but they won't be equal.
 When we give a new test data , your models will predict (if it's a classification problem) 0 or 1 and then we take the  majority answer.
 <br>
